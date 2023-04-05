@@ -17,10 +17,12 @@ owl: http://www.w3.org/2002/07/owl#">
         "@id": "https://github.com/FLVM123/#me",
         "@type": "Person",
         "foaf:name": "Flor Van Mieghem",
-        "foaf:account":{
-                 "@type":"foaf:OnlineGamingAccount",
-                  "foaf:accountName":"bertje1234567",
-                 "foaf:accountServiceHomepage": "https://www.chess.com/"
+        "hasAccount": {
+              "@type": "Game",
+              "name": "Chess.com",
+              "url": "https://www.chess.com/",
+              "gamePlatform": "Chess.com",
+              "playerId": "bertje1234567"
                 },
         "knows":["https://pietercolpaert.be/#me", "https://pieterheyvaert.com/"]
 
